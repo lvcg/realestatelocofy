@@ -23,15 +23,7 @@ const LandingPage = () => {
         <RentForm />
         <RentPropertiesContainer />
         <RentCard />
-        <Footer
-          imageIds="/houseline2.svg"
-          smallImageIds="/social-media-logo5.svg"
-          mediumImageIds="/social-media-logo6.svg"
-          smallImageIds2="/social-media-logo7.svg"
-          smallImageIds3="/social-media-logo8.svg"
-          largeImageIds="/social-media-logo9.svg"
-          propOverflow="unset"
-        />
+        <Footer/>
       </main>
     </>
   );
