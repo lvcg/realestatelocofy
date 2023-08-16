@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Header from "../components/header";
-import DreamHomeFinderContainer from "../components/dream-home-finder-container";
-import AreaPropertiesContainer from "../components/area-properties-container";
-import InfoCardContainer from "../components/info-card-container";
+import Hero from "../components/dream-home-finder-container";
+import AreaContainer from "../components/area-properties-container";
+import FeatureContainer from "../components/info-card-container";
 import RentForm from "../components/rent-form";
 import RentPropertiesContainer from "../components/rent-properties-container";
-import RentCard from "../components/rent-card";
+import Contact from "../components/rent-card";
 import Footer from "../components/footer";
 
 const LandingPage = () => {
@@ -17,13 +17,21 @@ const LandingPage = () => {
       </Head>
       <main className="relative bg-gray-white w-full flex flex-col items-center justify-start">
         <Header hamburger />
-        <DreamHomeFinderContainer />
-        <AreaPropertiesContainer />
-        <InfoCardContainer />
+        <Hero />
+        <AreaContainer />
+        <FeatureContainer />
         <RentForm />
         <RentPropertiesContainer />
-        <RentCard />
-        <Footer />
+        <Contact />
+        <Footer
+          imageIds="/houseline2.svg"
+          smallImageIds="/social-media-logo5.svg"
+          mediumImageIds="/social-media-logo6.svg"
+          smallImageIds2="/social-media-logo7.svg"
+          smallImageIds3="/social-media-logo8.svg"
+          largeImageIds="/social-media-logo9.svg"
+          propOverflow="unset"
+        />
       </main>
     </>
   );
