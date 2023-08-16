@@ -1,3 +1,4 @@
+import Head from "next/head";
 import "antd/dist/antd.min.css";
 import { Menu, Dropdown, Button } from "antd";
 import {

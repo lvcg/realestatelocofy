@@ -36,7 +36,7 @@ const Hero = () => {
   const router = useRouter();
 
   const onSearchCTAClick = () => {
-    router.push("/properties-grid-view");
+    router.push("/components/properties-grid-view");
   };
 
   return (

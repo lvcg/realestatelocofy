@@ -18,7 +18,7 @@ const AreaContainer = () => {
             <a
               className="[text-decoration:none] flex-1 rounded-lg h-[241px] flex flex-row items-start justify-start relative bg-[url(/card-1@3x.png)] bg-cover bg-no-repeat bg-[top] text-[inherit] md:flex-[unset] md:self-stretch"
               target="_blank"
-              href="/properties-grid-view"
+              href="/components/properties-grid-view"
             >
               <div className="my-0 mx-[!important] absolute top-[16px] left-[16px] flex flex-col items-start justify-start gap-[11px] z-[0]">
                 <div className="relative leading-[32px] font-semibold">
@@ -32,7 +32,7 @@ const AreaContainer = () => {
             <a
               className="[text-decoration:none] flex-1 rounded-lg h-[241px] flex flex-row items-start justify-start relative bg-[url(/card-2@3x.png)] bg-cover bg-no-repeat bg-[top] text-[inherit] md:flex-[unset] md:self-stretch"
               target="_blank"
-              href="/properties-grid-view"
+              href="/components/properties-grid-view"
             >
               <div className="my-0 mx-[!important] absolute top-[16px] left-[16px] flex flex-col items-start justify-start gap-[11px] z-[0]">
                 <div className="relative leading-[32px] font-semibold">
@@ -45,7 +45,7 @@ const AreaContainer = () => {
             </a>
             <Link
               className="cursor-pointer [text-decoration:none] flex-1 rounded-lg h-[241px] flex flex-row items-start justify-start relative bg-[url(/card-3@3x.png)] bg-cover bg-no-repeat bg-[top] text-[inherit] md:flex-[unset] md:self-stretch"
-              href="/properties-grid-view"
+              href="/components/properties-grid-view"
             >
               <div className="my-0 mx-[!important] absolute top-[16px] left-[16px] flex flex-col items-start justify-start gap-[11px] z-[0]">
                 <div className="relative leading-[32px] font-semibold">
@@ -61,7 +61,7 @@ const AreaContainer = () => {
             <a
               className="[text-decoration:none] flex-1 rounded-lg h-[241px] flex flex-row p-2.5 box-border items-start justify-start relative bg-[url(/card-4@3x.png)] bg-cover bg-no-repeat bg-[top] text-[inherit] md:flex-[unset] md:self-stretch"
               target="_blank"
-              href="/properties-grid-view"
+              href="/components/properties-grid-view"
             >
               <div className="my-0 mx-[!important] absolute top-[16px] left-[16px] flex flex-col items-start justify-start gap-[11px] z-[0]">
                 <div className="relative leading-[32px] font-semibold">
@@ -75,7 +75,7 @@ const AreaContainer = () => {
             <a
               className="[text-decoration:none] flex-1 rounded-lg h-[241px] flex flex-row p-2.5 box-border items-start justify-start relative bg-[url(/card-5@3x.png)] bg-cover bg-no-repeat bg-[top] text-[inherit] md:flex-[unset] md:self-stretch"
               target="_blank"
-              href="/properties-grid-view"
+              href="/components/properties-grid-view"
             >
               <div className="my-0 mx-[!important] absolute top-[16px] left-[16px] flex flex-col items-start justify-start gap-[11px] z-[0]">
                 <div className="relative leading-[32px] font-semibold">
