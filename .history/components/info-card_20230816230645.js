@@ -34,8 +34,12 @@ const InfoCard = ({ homeSaleRentId, homeSaleRentText, propWidth }) => {
           <div className="relative text-base leading-[24px] text-lightslategray text-left flex items-end w-[268px]">
             We do a free evaluation to be sure you want to start selling.
           </div>
+<<<<<<< HEAD
           {/* Read more button */}
           <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-base leading-[24px] font-body-regular-600 text-primary-500 text-left inline-block">
+=======
+          <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-base leading-[24px] font-body-large-400 text-primary-500 text-left inline-block">
+>>>>>>> 8a2283f489f8848ec19abafab5d1a820723860b6
             Read more
           </button>
         </div>

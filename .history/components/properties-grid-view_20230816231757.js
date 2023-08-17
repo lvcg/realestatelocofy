@@ -1,10 +1,11 @@
 import Head from "next/head";
 import "antd/dist/antd.min.css";
-import { Menu, Dropdown } from "antd";
+import { Menu, Dropdown, Button } from "antd";
 import {
   DownOutlined
 } from "@ant-design/icons";
 import Header from "./header";
+import HeaderBanner from "./header-banner";
 import PropertiesGridContainer from "./properties-grid-container";
 import Footer from "./footer";
 

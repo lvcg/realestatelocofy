@@ -78,6 +78,10 @@ const RentCard = () => {
   );
 };
 
+<<<<<<< HEAD
 // Export the RentCard component
 export default RentCard;
 
+=======
+export default Contact;
+>>>>>>> 8a2283f489f8848ec19abafab5d1a820723860b6

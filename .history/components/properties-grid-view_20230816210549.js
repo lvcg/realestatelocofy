@@ -1,10 +1,33 @@
 import Head from "next/head";
 import "antd/dist/antd.min.css";
-import { Menu, Dropdown } from "antd";
+import { Menu, Dropdown, Button } from "antd";
 import {
-  DownOutlined
+  DownOutlined,
+  ArrowLeftOutlined,
+  ArrowRightOutlined,
+  CalendarOutlined,
+  CheckOutlined,
+  ClockCircleOutlined,
+  CloseOutlined,
+  DeleteOutlined,
+  EditOutlined,
+  ExclamationCircleOutlined,
+  HeartOutlined,
+  LeftOutlined,
+  LockOutlined,
+  MailOutlined,
+  PaperClipOutlined,
+  PhoneOutlined,
+  QuestionCircleOutlined,
+  ReloadOutlined,
+  RightOutlined,
+  SearchOutlined,
+  SendOutlined,
+  ShareAltOutlined,
+  UserOutlined,
 } from "@ant-design/icons";
 import Header from "./header";
+import HeaderBanner from "./header-banner";
 import PropertiesGridContainer from "./properties-grid-container";
 import Footer from "./footer";
 
@@ -71,6 +94,7 @@ const PropertiesGridView = () => {
           </div>
           <div className="rounded-10xs bg-primary-50 flex flex-col py-2.5 px-[9px] items-start justify-start">
             <div className="relative leading-[24px] font-semibold flex items-end justify-center w-[26px]">
+              ...
             </div>
           </div>
           <div className="rounded-10xs bg-primary-50 flex flex-col py-2.5 px-[9px] items-start justify-start">

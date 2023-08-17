@@ -49,6 +49,10 @@ const InfoCardContainer = () => {
   );
 };
 
+<<<<<<< HEAD
 // Export the InfoCardContainer component
 export default InfoCardContainer;
 
+=======
+export default FeatureContainer;
+>>>>>>> 8a2283f489f8848ec19abafab5d1a820723860b6

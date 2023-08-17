@@ -23,7 +23,7 @@ const LandingPage = () => {
         {/* Include the header component */}
         <Header hamburger />
         {/* Include the DreamHomeFinderContainer */}
-        <Hero />
+        < />
         {/* Include the AreaPropertiesContainer */}
         <AreaPropertiesContainer />
         {/* Include the InfoCardContainer */}

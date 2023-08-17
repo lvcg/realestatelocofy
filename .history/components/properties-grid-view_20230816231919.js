@@ -5,6 +5,7 @@ import {
   DownOutlined
 } from "@ant-design/icons";
 import Header from "./header";
+//
 import PropertiesGridContainer from "./properties-grid-container";
 import Footer from "./footer";
 
