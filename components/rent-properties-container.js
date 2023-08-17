@@ -7,7 +7,7 @@ import PropertyRentCard from "./property-rent-card";
 const RentPropertiesContainer = () => {
   // Render the RentPropertiesContainer component
   return (
-    <div className="self-stretch flex flex-col py-[86px] px-0 items-center justify-start gap-[39px] text-center text-21xl text-primary-800 font-body-regular-600">
+    <div className="self-stretch flex flex-col py-[86px] px-0 items-center justify-start gap-[39px] text-center text-21xl text-primary-800 font-body-large-400">
       <div className="self-stretch flex flex-col items-center justify-start gap-[40px] max-w-[95%px]">
         {/* Title and subtitle section */}
         <div className="w-[688px] flex flex-col items-center justify-start gap-[24px] max-w-[95%px] lg:max-w-[95%] md:self-stretch md:w-auto">
