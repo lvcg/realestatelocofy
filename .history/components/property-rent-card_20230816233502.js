@@ -2,7 +2,7 @@
 import { useMemo } from "react";
 
 // Define a functional component named PropertyRentCard
-const PropertyRentCard = ({ imgUrl, name, price, propWidth, propFlex, propMinWidth, propMaxWidth }) => {
+const PropertyRentCard = ({ imgUrl, name, price,propWidth, propFlex, propMinWidth, propMaxWidth }) => {
   // Create a memoized style object for the card based on props
   const card1Style = useMemo(() => {
     return {

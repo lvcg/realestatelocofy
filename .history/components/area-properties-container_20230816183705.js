@@ -55,7 +55,7 @@ const AreaPropertiesContainer = () => {
           <Link
             className="cursor-pointer [text-decoration:none] flex-1 rounded-lg h-[241px] flex flex-row items-start justify-start relative bg-[url(/card-3@3x.png)] bg-cover bg-no-repeat bg-[top] text-[inherit] md:flex-[unset] md:self-stretch"
             href="/"
-          >
+            legacyBehavior>
             {/* Property details */}
             <div className="my-0 mx-[!important] absolute top-[16px] left-[16px] flex flex-col items-start justify-start gap-[11px] z-[0]">
               <div className="relative leading-[32px] font-semibold">

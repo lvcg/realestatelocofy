@@ -9,19 +9,19 @@ const Header = ({ hamburger }) => {
     <header className="self-stretch bg-gray-white h-[98px] flex flex-row py-[22px] px-20 box-border items-center justify-center sticky w-full top-[0] z-[2] text-center text-5xl text-primary-500 font-body-regular-600 lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
       {/* Left section of the header */}
       <div className="flex-1 flex flex-row items-center justify-between">
-        <Link href="/">
+        <Link href="/" className="flex flex-row items-center justify-center gap-[8px]">
           {/* Logo and company name wrapped in a Link */}
-          <a className="flex flex-row items-center justify-center gap-[8px]">
-            {/* Logo */}
-            <img className="relative w-11 h-11" alt="" src="/houseline.svg" />
-            {/* Company name */}
-            <div className="flex flex-col items-start justify-start">
-              <div className="relative leading-[24px] font-semibold">REIS</div>
-              <div className="relative text-sm leading-[16px] font-medium">
-                Real State
-              </div>
+
+          {/* Logo */}
+          <img className="relative w-11 h-11" alt="" src="/houseline.svg" />
+          {/* Company name */}
+          <div className="flex flex-col items-start justify-start">
+            <div className="relative leading-[24px] font-semibold">REIS</div>
+            <div className="relative text-sm leading-[16px] font-medium">
+              Real State
             </div>
-          </a>
+          </div>
+
         </Link>
         {/* Navigation links */}
         <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-primary-900 sm:flex">
