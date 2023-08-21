@@ -131,13 +131,13 @@ const Hero = () => {
                         { value: "$2500-$10000" },
                         { value: "$10000+" },
                       ].map((option, index) => (
-                        <Menu.Item key={index}>
+                        <AntMenu.Item key={index}>
                           <a onClick={(e) => e.preventDefault()}>
                             {option.value || ""}
                           </a>
-                        </Menu.Item>
+                        </AntMenu.Item>
                       ))}
-                    </Menu>
+                    </AntMenu>
                   }
                   placement="bottomLeft"
                   trigger={["hover"]}
@@ -146,9 +146,9 @@ const Hero = () => {
                     {`Select rent range `}
                     <DownOutlined />
                   </a>
-                </Dropdown>
+                </AntDropdown>
               </div>
-              <Button
+              <AntButton
                 className="cursor-pointer"
                 style={{ width: "102px" }}
                 type="primary"
@@ -157,7 +157,7 @@ const Hero = () => {
                 onClick={onSearchCTAClick}
               >
                 Search
-              </Button>
+              </AntButton>
           </nav>
         </div>
       </form>

@@ -148,7 +148,7 @@ const Hero = () => {
                   </a>
                 </Dropdown>
               </div>
-              <Button
+              <AntButton
                 className="cursor-pointer"
                 style={{ width: "102px" }}
                 type="primary"
@@ -157,7 +157,7 @@ const Hero = () => {
                 onClick={onSearchCTAClick}
               >
                 Search
-              </Button>
+              </AntButton>
           </nav>
         </div>
       </form>

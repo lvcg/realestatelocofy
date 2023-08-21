@@ -157,7 +157,7 @@ const Hero = () => {
                 onClick={onSearchCTAClick}
               >
                 Search
-              </Button>
+              </AntButton>
           </nav>
         </div>
       </form>

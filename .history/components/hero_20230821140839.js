@@ -1,9 +1,8 @@
 // Import necessary libraries and components
 import React from "react";
 import Link from 'next/link';
-// This line is commented out, preventing the import of the Button component from the Material-UI library.
-// import { Button } from "@mui/material";
-import { Menu, Dropdown, Button } from "antd";
+import { Button } from "@mui/material";
+import { Menu as AntMenu, Dropdown  Button as AntButton } from "antd";
 import { DownOutlined } from "@ant-design/icons";
 import { useRouter } from "next/router";
 
@@ -43,9 +42,9 @@ const Hero = () => {
               <div className="relative text-base leading-[18px] font-semibold font-body-regular-600 text-primary-700 text-center">
                 Locations
               </div>
-              <Dropdown
+              <AntDropdown
                   overlay={
-                    <Menu>
+                    <AntMenu>
                       {[
                         { value: "Denver" },
                         { value: "Seattle" },
@@ -69,13 +68,13 @@ const Hero = () => {
                         { value: "San Diego" },
                         { value: "" },
                       ].map((option, index) => (
-                        <Menu.Item key={index}>
+                        <AntMenu.Item key={index}>
                           <a onClick={(e) => e.preventDefault()}>
                             {option.value || ""}
                           </a>
-                        </Menu.Item>
+                        </AntMenu.Item>
                       ))}
-                    </Menu>
+                    </AntMenu>
                   }
                   placement="bottomLeft"
                   trigger={["hover"]}
@@ -84,16 +83,16 @@ const Hero = () => {
                     {`Select your city `}
                     <DownOutlined />
                   </a>
-                </Dropdown>
+                </AntDropdown>
               </div>
               <div className="w-[177px] flex flex-col items-start justify-start gap-[16px]">
                 <div className="relative text-base leading-[18px] font-semibold font-body-regular-600 text-primary-700 text-left flex items-end w-[150px]">
                   Property Type
                 </div>
-                <Dropdown
+                <AntDropdown
                   className="self-stretch"
                   overlay={
-                    <Menu>
+                    <AntMenu>
                       {[
                         { value: "Studio apartments" },
                         { value: "One-bedroom apartments" },
@@ -101,13 +100,13 @@ const Hero = () => {
                         { value: "Three-bedroom apartments" },
                         { value: "Four or more bedroom apartments/houses" },
                       ].map((option, index) => (
-                        <Menu.Item key={index}>
+                        <AntMenu.Item key={index}>
                           <a onClick={(e) => e.preventDefault()}>
                             {option.value || ""}
                           </a>
-                        </Menu.Item>
+                        </AntMenu.Item>
                       ))}
-                    </Menu>
+                    </AntMenu>
                   }
                   placement="bottomLeft"
                   trigger={["hover"]}
@@ -116,28 +115,28 @@ const Hero = () => {
                     {`Select property type `}
                     <DownOutlined />
                   </a>
-                </Dropdown>
+                </AntDropdown>
               </div>
               <div className="w-[155px] flex flex-col items-start justify-start gap-[16px]">
                 <div className="relative text-base leading-[18px] font-semibold font-body-regular-600 text-primary-700 text-left flex items-end w-[150px]">
                   Rent Range
                 </div>
-                <Dropdown
+                <AntDropdown
                   className="self-stretch"
                   overlay={
-                    <Menu>
+                    <AntMenu>
                       {[
                         { value: "$500-$2000" },
                         { value: "$2500-$10000" },
                         { value: "$10000+" },
                       ].map((option, index) => (
-                        <Menu.Item key={index}>
+                        <AntMenu.Item key={index}>
                           <a onClick={(e) => e.preventDefault()}>
                             {option.value || ""}
                           </a>
-                        </Menu.Item>
+                        </AntMenu.Item>
                       ))}
-                    </Menu>
+                    </AntMenu>
                   }
                   placement="bottomLeft"
                   trigger={["hover"]}
@@ -146,9 +145,9 @@ const Hero = () => {
                     {`Select rent range `}
                     <DownOutlined />
                   </a>
-                </Dropdown>
+                </AntDropdown>
               </div>
-              <Button
+              <AntButton
                 className="cursor-pointer"
                 style={{ width: "102px" }}
                 type="primary"
@@ -157,7 +156,7 @@ const Hero = () => {
                 onClick={onSearchCTAClick}
               >
                 Search
-              </Button>
+              </AntButton>
           </nav>
         </div>
       </form>

@@ -137,7 +137,7 @@ const Hero = () => {
                           </a>
                         </Menu.Item>
                       ))}
-                    </Menu>
+                    </AntMenu>
                   }
                   placement="bottomLeft"
                   trigger={["hover"]}
@@ -146,9 +146,9 @@ const Hero = () => {
                     {`Select rent range `}
                     <DownOutlined />
                   </a>
-                </Dropdown>
+                </AntDropdown>
               </div>
-              <Button
+              <AntButton
                 className="cursor-pointer"
                 style={{ width: "102px" }}
                 type="primary"
@@ -157,7 +157,7 @@ const Hero = () => {
                 onClick={onSearchCTAClick}
               >
                 Search
-              </Button>
+              </AntButton>
           </nav>
         </div>
       </form>
